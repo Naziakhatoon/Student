@@ -1,15 +1,15 @@
-class Student  
+class Employee 
 {  
     int id;  
     String name;  
     int age;  
     //creating two arg constructor  
-    Student(int i,String n){  
+    Employee(int i,String n){  
     id = i;  
     name = n;  
     }  
     //creating three arg constructor  
-    Student(int i,String n,int a){  
+    Employee(int i,String n,int a){  
     id = i;  
     name = n;  
     age=a;  
@@ -17,9 +17,9 @@ class Student
     void display(){System.out.println(id+" "+name+" "+age);}  
    
     public static void main(String args[]){  
-    Student s1 = new Student(111,"Nazia",26);  
-    Student s2 = new Student(222,"Ram",25);  
-    s1.display();  
-    s2.display();  
+    Employee  e1 = new Employee(111,"Nazia",26);  
+    Employee  e2 = new Employee(222,"Ram",25);  
+    e1.display();  
+    e2.display();  
    }  
 }
